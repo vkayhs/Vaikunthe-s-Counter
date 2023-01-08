@@ -4,8 +4,8 @@ let welcomeEl = document.getElementById("welcome-el")
 
 let saveEl = document.getElementById("save-el")
 
-// let name = prompt("What is your name?")
-let name = "Vaikunthe"
+let name = prompt("What is your name?")
+// let name = "Vaikunthe"
 let greeting = `Hi ${name}! 👋 Hope you enjoy using the counter!`
 
 welcomeEl.innerText = greeting
